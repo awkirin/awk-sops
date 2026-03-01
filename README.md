@@ -1,8 +1,7 @@
 ## install
 ```bash
-mkdir -p ~/.local/bin && \
-curl -fsSL https://raw.githubusercontent.com/awkirin/awk-sops/refs/heads/main/awk-sops.sh -o ~/.local/bin/awk-sops && \
-chmod +x ~/.local/bin/awk-sops
+sudo curl -fsSL https://raw.githubusercontent.com/awkirin/awk-sops/refs/heads/main/awk-sops.sh -o /usr/local/bin/awk-sops
+sudo chmod +x /usr/local/bin/awk-sops
 ```
 
 ## usage
